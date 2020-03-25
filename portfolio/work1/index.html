@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Tutorial Hugo</title>
+<meta name="description" content="Este es mi portafolio digital en el cual encontrarás trabajos de diversas áreas en el diseño.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" href="/Saign%20Portfolio/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="/Saign%20Portfolio/css/font-awesome.min.css">
+<link rel="stylesheet" href="/Saign%20Portfolio/css/owl.carousel.css">
+<link rel="stylesheet" href="/Saign%20Portfolio/css/owl.theme.css">
+
+
+  <link href="/Saign%20Portfolio/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="/Saign%20Portfolio/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="/Saign%20Portfolio/img/favicon.png">
+
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="/Saign%20Portfolio">Portafolio</a></h1>
+    
+      <p class="sidebar-p">Soy un diseñador industrial creativo y focalizado en la representación visual y el 3D.</p>
+    
+      <p class="sidebar-p">Si te interesa mi trabajo y crees que calza con tu idea, puedes contactarme</p>
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="/Saign%20Portfolio/portfolio/">Inicio</a></li>
+      
+        <li><a href="/Saign%20Portfolio/about/">Sobre mí</a></li>
+      
+        <li><a href="/Saign%20Portfolio/contact/">Contacto</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  
+  
+  
+  <a href="https://www.instagram.com/s4ign/" title="" class="external instagram">
+    <i class="fa fa-instagram"></i>
+  </a>
+  
+  
+  <a href="mailto:ignacio.sa.96@gmail.com" data-animate-hover="pulse" class="email">
+    <i class="fa fa-envelope"></i>
+  </a>
+  
+  
+  
+  
+  
+  
+</p>
+
+
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2020 Saign |
+        
+        Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
+
+&amp; ported to Hugo by <a href="https://github.com/kishaningithub">Kishan B</a>
+
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="/Saign%20Portfolio">Portafolio</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>Tutorial Hugo</h1>
+         <p>Cómo instalar Hugo desde 0 para la creación de páginas web.</p>
+<p>En esta publicación podrás aprender desde la instalación de Hugo, hasta la instalación de un tema en tu sitio web.</p>
+<blockquote>
+<h6 id="instalación-de-hugo--creación-de-sitio-web">Instalación de Hugo + Creación de sitio web</h6>
+</blockquote>
+<p><strong>Paso #1</strong> Descomprimir del rar los 3 archivos Hugo</p>
+<p><strong>Paso #2</strong> Crear en el disco que deseemos una carpeta destinada a Hugo. Luego creamos una carpeta llamada &ldquo;bin&rdquo; dentro y copiamos los 3 archivos ahí.</p>
+<p><img src="/img/carpetashugo.jpg" alt="Archivos Hugo"></p>
+<p><strong>Paso #3</strong> Tecla windows y escribir <strong>&ldquo;editar las variables del entorno de esta cuenta&rdquo;</strong></p>
+<ul>
+<li>Doble click o editar en &ldquo;Path&rdquo;</li>
+<li>Clickear &ldquo;nuevo&rdquo; y después &ldquo;examinar&rdquo;</li>
+<li>Seleccionar la ruta en donde instalamos Hugo, en este caso <strong>C:\Hugo\bin</strong> y finalmente aceptar.</li>
+</ul>
+<p><img src="/img/editarvariables.jpg" alt="editar variables"></p>
+<p><strong>Paso #4</strong> Ejecutar comando <strong>&ldquo;CMD&rdquo;</strong> en windows para abrir la consola de <strong>símbolo del sistema</strong>.</p>
+<p>En este paso cada comando que escribamos lo debemos ejecutar presionando Enter.</p>
+<ul>
+<li>Escribir <strong>&ldquo;cd/.&quot;</strong> para retroceder al disco local.</li>
+<li>Escribir <strong>&ldquo;cd hugo&rdquo;</strong> para entrar a la carpeta local de hugo que instalamos.</li>
+<li>Para comprobar la instalación, debemos escribir <strong>&ldquo;hugo version&rdquo;</strong>, y si nos aparece el siguiente mensaje: <strong>&ldquo;Hugo Static Site Generator v0.67.1-4F44227B windows/amd64 BuildDate: 2020-03-15T19:32:32Z&rdquo;</strong>, significa que funcionó.</li>
+</ul>
+<p><img src="/img/cmd.jpg" alt="CMD"></p>
+<p><strong>Paso #5</strong> Crearemos nuestro primer sitio web con <strong>hugo new site &lsquo;nombre de nuestro sitio web&rsquo;</strong> y se creará una carpeta en los archivos locales de hugo con el nombre que asignamos a nuestra web. En este caso le colocaré &ldquo;website&rdquo; a mi sitio.</p>
+<p><img src="/img/website2.jpg" alt="CMD"></p>
+<blockquote>
+<h6 id="instalación-de-tema-en-nuestro-sitio-web">Instalación de tema en nuestro sitio web</h6>
+</blockquote>
+<p><strong>Paso #1</strong> en esa carpeta debemos instalar el tema que queramos arrastrando la carpeta del tema a &ldquo;themes&rdquo; Es importante que la carpeta que nos descarguemos no termine en &ldquo;-master&rdquo;, si es así, debemos borrar eso del nombre. Por ejemplo yo utilizaré un tema que se llama <strong>&ldquo;hugo-creative-portfolio-theme&rdquo;</strong></p>
+<p><img src="/img/website.jpg" alt="CMD"></p>
+<p><strong>Paso #2</strong> Abrimos la carpeta de nuestro tema, entramos a &ldquo;examplesite&rdquo; y cortamos todo dentro.</p>
+<ul>
+<li>Pegamos en la carpeta &ldquo;website&rdquo; que creamos anteriormente y reemplazamos todo lo que nos pida reemplazar.</li>
+</ul>
+<p><img src="/img/examplesite.jpg" alt="CMD"></p>
+<p><strong>Paso #3</strong> Finalmente para comprobar que nuestro sitio web fue creado con el tema que nosotros escogimos, debemos escribir en la consola <strong>&ldquo;hugo server&rdquo;</strong> para hostear la página web y visualizar el resultado.</p>
+<blockquote>
+<p><strong>Es importante que estemos dentro de la carpeta de nuestro sitio web para hostear.</strong></p>
+</blockquote>
+<ul>
+<li>Para entrar escribimos <strong>cd &lsquo;nombre de nuestro sitio&rsquo; y luego hosteamos</strong></li>
+</ul>
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="/Saign%20Portfolio/js/jquery.min.js"></script>
+<script src="/Saign%20Portfolio/js/bootstrap.min.js"></script>
+<script src="/Saign%20Portfolio/js/jquery.cookie.js"> </script>
+<script src="/Saign%20Portfolio/js/ekko-lightbox.js"></script>
+<script src="/Saign%20Portfolio/js/jquery.scrollTo.min.js"></script>
+<script src="/Saign%20Portfolio/js/masonry.pkgd.min.js"></script>
+<script src="/Saign%20Portfolio/js/imagesloaded.pkgd.min.js"></script>
+<script src="/Saign%20Portfolio/js/owl.carousel.min.js"></script>
+<script src="/Saign%20Portfolio/js/front.js"></script>
+
+
+
+</body>
+</html>
