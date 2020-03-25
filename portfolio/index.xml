@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolios on Portafolio</title>
-    <link>/Saign%20Portfolio/portfolio/</link>
+    <link>/portfolio/</link>
     <description>Recent content in Portfolios on Portafolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Nov 2016 19:53:42 +0530</lastBuildDate>
     
-	<atom:link href="/Saign%20Portfolio/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Plano de ondulación</title>
-      <link>/Saign%20Portfolio/portfolio/work2/</link>
+      <link>/portfolio/work2/</link>
       <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
       
-      <guid>/Saign%20Portfolio/portfolio/work2/</guid>
+      <guid>/portfolio/work2/</guid>
       <description>&lt;p&gt;Propuesta abstracta número 1 de un plano bidimensional proyectado con luz por un volúmen ligero y sinuoso.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Sinuosidad Ligera</title>
-      <link>/Saign%20Portfolio/portfolio/work3/</link>
+      <link>/portfolio/work3/</link>
       <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
       
-      <guid>/Saign%20Portfolio/portfolio/work3/</guid>
+      <guid>/portfolio/work3/</guid>
       <description>&lt;p&gt;Propuesta abstracta número 2 de un plano bidimensional proyectado con luz por un volúmen ligero y sinuoso.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Bordes de difusión</title>
-      <link>/Saign%20Portfolio/portfolio/work4/</link>
+      <link>/portfolio/work4/</link>
       <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
       
-      <guid>/Saign%20Portfolio/portfolio/work4/</guid>
+      <guid>/portfolio/work4/</guid>
       <description>&lt;p&gt;Propuesta abstracta número 3 de un plano bidimensional proyectado con luz por distintas capas distribuídas jerárquicamente para generar texturas.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Crisálida</title>
-      <link>/Saign%20Portfolio/portfolio/work5/</link>
+      <link>/portfolio/work5/</link>
       <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
       
-      <guid>/Saign%20Portfolio/portfolio/work5/</guid>
+      <guid>/portfolio/work5/</guid>
       <description>&lt;p&gt;Volumen de luz que genera texturas e intensidades distintas.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tutorial Hugo</title>
-      <link>/Saign%20Portfolio/portfolio/work1/</link>
+      <link>/portfolio/work1/</link>
       <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
       
-      <guid>/Saign%20Portfolio/portfolio/work1/</guid>
+      <guid>/portfolio/work1/</guid>
       <description>&lt;p&gt;Cómo instalar Hugo desde 0 para la creación de páginas web.&lt;/p&gt;
 &lt;p&gt;En esta publicación podrás aprender desde la instalación de Hugo, hasta la instalación de un tema en tu sitio web.&lt;/p&gt;</description>
     </item>
