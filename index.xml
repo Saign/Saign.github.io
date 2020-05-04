@@ -6,7 +6,7 @@
     <description>Recent content on Portafolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Nov 2016 13:00:25 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2020 19:53:42 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Plano de ondulación</title>
       <link>/portfolio/work2/</link>
-      <pubDate>Sat, 05 Nov 2016 19:41:01 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/portfolio/work2/</guid>
       <description>&lt;p&gt;Propuesta abstracta número 1 de un plano bidimensional proyectado con luz por un volúmen ligero y sinuoso.&lt;/p&gt;</description>
@@ -23,7 +23,7 @@
     <item>
       <title>Sinuosidad Ligera</title>
       <link>/portfolio/work3/</link>
-      <pubDate>Sat, 05 Nov 2016 19:44:32 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/portfolio/work3/</guid>
       <description>&lt;p&gt;Propuesta abstracta número 2 de un plano bidimensional proyectado con luz por un volúmen ligero y sinuoso.&lt;/p&gt;</description>
@@ -32,7 +32,7 @@
     <item>
       <title>Bordes de difusión</title>
       <link>/portfolio/work4/</link>
-      <pubDate>Sat, 05 Nov 2016 19:50:47 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/portfolio/work4/</guid>
       <description>&lt;p&gt;Propuesta abstracta número 3 de un plano bidimensional proyectado con luz por distintas capas distribuídas jerárquicamente para generar texturas.&lt;/p&gt;</description>
@@ -41,7 +41,7 @@
     <item>
       <title>Prismas</title>
       <link>/portfolio/work5/</link>
-      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/portfolio/work5/</guid>
       <description>&lt;p&gt;Volumen de luz que genera texturas y prismas superpuestos&lt;/p&gt;</description>
@@ -50,34 +50,34 @@
     <item>
       <title>Movilidad Emergencia - Referentes</title>
       <link>/portfolio/work6/</link>
-      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/portfolio/work6/</guid>
       <description>&lt;p&gt;En esta publicación se toman ideas de carácter ficticio y real, que rescatan conceptos de movilidad en un contexto de pandemia.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Fusion 360</title>
+      <title>Software Creativo</title>
+      <link>/portfolio/work7/</link>
+      <pubDate>Tue, 04 Oct 2016 19:53:42 +0530</pubDate>
+      
+      <guid>/portfolio/work7/</guid>
+      <description>&lt;p&gt;Listado de softwares que recomiendo totalmente por su cómoda interfaz y uso.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fusion 360 &#43; Grasshopper</title>
       <link>/portfolio/work8/</link>
-      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      <pubDate>Fri, 04 Nov 2016 19:53:42 +0530</pubDate>
       
       <guid>/portfolio/work8/</guid>
       <description>&lt;p&gt;En esta publicación veremos un pequeño ejercicio de modelación 3D básica en el software de Autodesk, mis primeros pasos editando una superficie en base a un brazo.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Software Creativo</title>
-      <link>/portfolio/work7/</link>
-      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
-      
-      <guid>/portfolio/work7/</guid>
-      <description>&lt;p&gt;Post en proceso&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Investigación Covid-19 pt1</title>
       <link>/portfolio/work9/</link>
-      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/portfolio/work9/</guid>
       <description>&lt;p&gt;Diseño de Wearables para sobrevivir en escenarios perjudiciales para la salud.&lt;/p&gt;</description>
@@ -86,16 +86,25 @@
     <item>
       <title>Investigación Covid-19 pt2</title>
       <link>/portfolio/work10/</link>
-      <pubDate>Sat, 05 Nov 2016 19:53:42 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/portfolio/work10/</guid>
       <description>&lt;p&gt;Diseño de Wearables que enfrentan al Covid-19 - Segunda parte de la investigación y desarrollo de propuestas.&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>Fusion 360 &#43; Keyshot</title>
+      <link>/portfolio/work11/</link>
+      <pubDate>Sun, 05 Jan 2020 19:53:42 +0530</pubDate>
+      
+      <guid>/portfolio/work11/</guid>
+      <description>&lt;p&gt;Documentación de un diseño de carcasa para drone con las herramientas básicas de Fusion 360 + el renderizado de imágen con Keyshot 9.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Tutorial Hugo</title>
       <link>/portfolio/work1/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/portfolio/work1/</guid>
       <description>&lt;p&gt;Cómo instalar Hugo desde 0 para la creación de páginas web.&lt;/p&gt;

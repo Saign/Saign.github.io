@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Fusion 360</title>
+<title>Fusion 360 &#43; Grasshopper</title>
 <meta name="description" content="Este es mi portafolio digital en el cual encontrarás trabajos de diversas áreas en el diseño.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -98,8 +98,10 @@
   <div class="row">
     <div class="col-lg-8">
       <div class="content-column-content">
-         <h1>Fusion 360</h1>
+         <h1>Fusion 360 &#43; Grasshopper</h1>
          <p>En esta publicación veremos un pequeño ejercicio de modelación 3D básica en el software de Autodesk, mis primeros pasos editando una superficie en base a un brazo.</p>
+<p><img src="/img/ferurender2.jpg" alt="paso1"></p>
+<p><img src="/img/ferurender1.jpg" alt="paso1"></p>
 <h6 id="primeros-pasos-con-autodesk-fusion-360">Primeros pasos con Autodesk Fusion 360</h6>
 <p>Debido a que en la grabación sólo se ve el proceso de modelado, sin los parámetros y opciones, dejaré una serie de screenshots que muestran las configuraciones que utilicé.</p>
 
@@ -107,16 +109,55 @@
   <iframe src="https://www.youtube.com/embed/P9AGNIV7nno" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-<p><img src="/img/hand1.jpg" alt="paso1"></p>
+<hr>
+<div>
+    <iframe src="https://gmail771881.autodesk360.com/shares/public/SH56a43QTfd62c1cd968941a2718a23403d5?mode=embed" width="840" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+</div>
+<hr>
+<h6 id="modelado-en-fusion-360">Modelado en Fusion 360</h6>
+<p><img src="/img/ferula1.jpg" alt="paso1"></p>
+<blockquote>
+<p>Lo primero que vemos aquí son planos de trabajo y un sketch alrededor del brazo. Estos elementos son la base de nuestro modelo.</p>
+</blockquote>
 <p><img src="/img/hand2.jpg" alt="paso2"></p>
+<blockquote>
+<p>Para trabajar en base a estos elementos, vamos a <strong>&ldquo;Create Form&rdquo;</strong> (podemos apagar los planos y dejar sólo el sketch que utilizaremos directamente)</p>
+</blockquote>
 <p><img src="/img/hand3.jpg" alt="paso3"></p>
+<blockquote>
+<p>Hacemos un <strong>loft</strong> en base a las elipses del sketch, seleccionando una por una y en el orde de construcción de la superficie.
+Tendremos una ventana abierta con los parámetros de la superficie. En esta ventana asignamos la cantidad de caras que queramos en ambos ejes. Mientras menor sea la cantidad de caras, más sencillo nos resultará editar la forma.
+La superficie se irá complejizando a medida que agreguemos detalles, como veremos más adelante.</p>
+</blockquote>
 <p><img src="/img/hand4.jpg" alt="paso4"></p>
 <p><img src="/img/hand5.jpg" alt="paso5"></p>
+<blockquote>
+<p>Podemos visualizar los cortes de nuestra superficie respecto al brazo, en la capa <strong>Analysis</strong>, para ver cómo se comporta la forma al interior y exterior.</p>
+</blockquote>
 <p><img src="/img/hand6.jpg" alt="paso6"></p>
+<blockquote>
+<p>Para editar las cartas, vértices y aristas, colocamos <strong>Edit Form</strong> y comenzamos a iterar con los modificadores que aparecen en pantalla.</p>
+</blockquote>
 <p><img src="/img/hand7.jpg" alt="paso7"></p>
 <p><img src="/img/hand8.jpg" alt="paso8"></p>
+<blockquote>
+<p>Cuando llegamos a partes más complejas en el brazo, usamos <strong>Subdivide</strong> para generar más caras dentro de nuestra selección. En este caso, quiero hacer una apertura para el dedo pulgar de la mano.</p>
+</blockquote>
 <p><img src="/img/hand9.jpg" alt="paso9"></p>
 <p><img src="/img/hand10.jpg" alt="paso10"></p>
+<blockquote>
+<p>Subdivido la selección y edito el agujero en virtud del tamaño del pulgar.</p>
+</blockquote>
+<p><img src="/img/hand11.jpg" alt="paso10"></p>
+<p><img src="/img/hand12.jpg" alt="paso10"></p>
+<hr>
+<h6 id="voronoi-de-superficie-en-rhinoceros-6">Voronoi de superficie en Rhinoceros 6</h6>
+<p><img src="/img/voronoi1.jpg" alt="paso10"></p>
+<blockquote>
+<p>Finalmente, importamos la superficie a Rhino y la parametrizamos en Grasshopper con un voronoi.</p>
+</blockquote>
+<p><img src="/img/voronoi2.jpg" alt="paso10"></p>
+<p><img src="/img/voronoi3.jpg" alt="paso10"></p>
          
       </div>
     </div>
