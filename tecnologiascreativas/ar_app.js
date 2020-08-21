@@ -7,7 +7,7 @@ var mesh1, mesh2;
 
 var markerRoot1;
 
-var RhinoMesh1;
+var RhinoMesh1, RhinoMesh2, RhinoMesh3, RhinoMesh4, RhinoMesh5;
 
 init(); // llamado de la funcion principal que se encarga de hacer casi  todo en la app
 animate();
@@ -175,12 +175,12 @@ function init() {
     //////OBJETO RHINO 1///////////////
     new THREE.MTLLoader()
         .setPath('data/models/')
-        .load('pruebaunion.mtl', function (materials) {
+        .load('huka1.mtl', function (materials) {
             materials.preload();
             new THREE.OBJLoader()
                 .setMaterials(materials)
                 .setPath('data/models/')
-                .load('pruebaunion.obj', function (group) {
+                .load('huka1.obj', function (group) {
                     RhinoMesh1 = group.children[0];
                     RhinoMesh1.material.side = THREE.DoubleSide;
                     RhinoMesh1.scale.set(0.25, 0.25, 0.25);
@@ -188,6 +188,82 @@ function init() {
                     RhinoMesh1.receiveShadow = true;
 
                     markerRoot1.add(RhinoMesh1);
+                }, onProgress, onError);
+        });
+
+            //////OBJETO RHINO 2///////////////
+    new THREE.MTLLoader()
+    .setPath('data/models/')
+    .load('huka2.mtl', function (materials) {
+        materials.preload();
+        new THREE.OBJLoader()
+            .setMaterials(materials)
+            .setPath('data/models/')
+            .load('huka2.obj', function (group) {
+                RhinoMesh2 = group.children[0];
+                RhinoMesh2.material.side = THREE.DoubleSide;
+                RhinoMesh2.scale.set(0.25, 0.25, 0.25);
+                RhinoMesh2.castShadow = true;
+                RhinoMesh2.receiveShadow = true;
+
+                markerRoot1.add(RhinoMesh2);
+            }, onProgress, onError);
+    });
+
+        //////OBJETO RHINO 3///////////////
+        new THREE.MTLLoader()
+        .setPath('data/models/')
+        .load('huka3.mtl', function (materials) {
+            materials.preload();
+            new THREE.OBJLoader()
+                .setMaterials(materials)
+                .setPath('data/models/')
+                .load('huka3.obj', function (group) {
+                    RhinoMesh3 = group.children[0];
+                    RhinoMesh3.material.side = THREE.DoubleSide;
+                    RhinoMesh3.scale.set(0.25, 0.25, 0.25);
+                    RhinoMesh3.castShadow = true;
+                    RhinoMesh3.receiveShadow = true;
+
+                    markerRoot1.add(RhinoMesh3);
+                }, onProgress, onError);
+        });
+
+            //////OBJETO RHINO 4///////////////
+    new THREE.MTLLoader()
+    .setPath('data/models/')
+    .load('huka4.mtl', function (materials) {
+        materials.preload();
+        new THREE.OBJLoader()
+            .setMaterials(materials)
+            .setPath('data/models/')
+            .load('huka4.obj', function (group) {
+                RhinoMesh4 = group.children[0];
+                RhinoMesh4.material.side = THREE.DoubleSide;
+                RhinoMesh4.scale.set(0.25, 0.25, 0.25);
+                RhinoMesh4.castShadow = true;
+                RhinoMesh4.receiveShadow = true;
+
+                markerRoot1.add(RhinoMesh4);
+            }, onProgress, onError);
+    });
+
+        //////OBJETO RHINO 5///////////////
+        new THREE.MTLLoader()
+        .setPath('data/models/')
+        .load('huka5.mtl', function (materials) {
+            materials.preload();
+            new THREE.OBJLoader()
+                .setMaterials(materials)
+                .setPath('data/models/')
+                .load('huka5.obj', function (group) {
+                    RhinoMesh5 = group.children[0];
+                    RhinoMesh5.material.side = THREE.DoubleSide;
+                    RhinoMesh5.scale.set(0.25, 0.25, 0.25);
+                    RhinoMesh5.castShadow = true;
+                    RhinoMesh5.receiveShadow = true;
+
+                    markerRoot1.add(RhinoMesh5);
                 }, onProgress, onError);
         });
 
