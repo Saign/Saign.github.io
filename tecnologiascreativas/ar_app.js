@@ -7,7 +7,7 @@ var mesh1, mesh2;
 
 var markerRoot1;
 
-var RhinoMesh6, RhinoMesh7, RhinoMesh3, RhinoMesh4, RhinoMesh5;
+var RhinoMesh1;
 
 init(); // llamado de la funcion principal que se encarga de hacer casi  todo en la app
 animate();
@@ -175,97 +175,22 @@ function init() {
     //////OBJETO RHINO 1///////////////
     new THREE.MTLLoader()
         .setPath('data/models/')
-        .load('prueba1.mtl', function (materials) {
+        .load('pruebaunion.mtl', function (materials) {
             materials.preload();
             new THREE.OBJLoader()
                 .setMaterials(materials)
                 .setPath('data/models/')
-                .load('prueba1.obj', function (group) {
-                    RhinoMesh6 = group.children[0];
-                    RhinoMesh6.material.side = THREE.DoubleSide;
-                    RhinoMesh6.scale.set(0.25, 0.25, 0.25);
-                    RhinoMesh6.castShadow = true;
-                    RhinoMesh6.receiveShadow = true;
+                .load('pruebaunion.obj', function (group) {
+                    RhinoMesh1 = group.children[0];
+                    RhinoMesh1.material.side = THREE.DoubleSide;
+                    RhinoMesh1.scale.set(0.25, 0.25, 0.25);
+                    RhinoMesh1.castShadow = true;
+                    RhinoMesh1.receiveShadow = true;
 
-                    markerRoot1.add(RhinoMesh6);
+                    markerRoot1.add(RhinoMesh1);
                 }, onProgress, onError);
         });
 
-    //////OBJETO RHINO 2///////////////
-    new THREE.MTLLoader()
-        .setPath('data/models/')
-        .load('prueba2.mtl', function (materials) {
-            materials.preload();
-            new THREE.OBJLoader()
-                .setMaterials(materials)
-                .setPath('data/models/')
-                .load('prueba2.obj', function (group) {
-                    RhinoMesh7 = group.children[0];
-                    RhinoMesh7.material.side = THREE.DoubleSide;
-                    RhinoMesh7.scale.set(0.25, 0.25, 0.25);
-                    RhinoMesh7.castShadow = true;
-                    RhinoMesh7.receiveShadow = true;
-
-                    markerRoot1.add(RhinoMesh7);
-                }, onProgress, onError);
-        });
-
-         //////OBJETO RHINO 3///////////////
-    new THREE.MTLLoader()
-    .setPath('data/models/')
-    .load('prueba3.mtl', function (materials) {
-        materials.preload();
-        new THREE.OBJLoader()
-            .setMaterials(materials)
-            .setPath('data/models/')
-            .load('prueba3.obj', function (group) {
-                RhinoMesh3 = group.children[0];
-                RhinoMesh3.material.side = THREE.DoubleSide;
-                RhinoMesh3.scale.set(0.25, 0.25, 0.25);
-                RhinoMesh3.castShadow = true;
-                RhinoMesh3.receiveShadow = true;
-
-                markerRoot1.add(RhinoMesh3);
-            }, onProgress, onError);
-    });
-
-             //////OBJETO RHINO 4///////////////
-             new THREE.MTLLoader()
-             .setPath('data/models/')
-             .load('prueba4.mtl', function (materials) {
-                 materials.preload();
-                 new THREE.OBJLoader()
-                     .setMaterials(materials)
-                     .setPath('data/models/')
-                     .load('prueba4.obj', function (group) {
-                         RhinoMesh4 = group.children[0];
-                         RhinoMesh4.material.side = THREE.DoubleSide;
-                         RhinoMesh4.scale.set(0.25, 0.25, 0.25);
-                         RhinoMesh4.castShadow = true;
-                         RhinoMesh4.receiveShadow = true;
-         
-                         markerRoot1.add(RhinoMesh4);
-                     }, onProgress, onError);
-             });
-
-                      //////OBJETO RHINO 5///////////////
-    new THREE.MTLLoader()
-    .setPath('data/models/')
-    .load('prueba5.mtl', function (materials) {
-        materials.preload();
-        new THREE.OBJLoader()
-            .setMaterials(materials)
-            .setPath('data/models/')
-            .load('prueba5.obj', function (group) {
-                RhinoMesh5 = group.children[0];
-                RhinoMesh5.material.side = THREE.DoubleSide;
-                RhinoMesh5.scale.set(0.25, 0.25, 0.25);
-                RhinoMesh5.castShadow = true;
-                RhinoMesh5.receiveShadow = true;
-
-                markerRoot1.add(RhinoMesh5);
-            }, onProgress, onError);
-    });
 }
 
 function update() {
